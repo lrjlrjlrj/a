@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE person SYSTEM "person.dtd">
+<person id="1001" copyright="@">
+	<name>张三</name>
+	<age>23</age>
+	<sex>男</sex>
+	<tall>1.75</tall>
+	<contact>
+		<tel>1313131313</tel>
+		<qq>123342352</qq>
+	</contact>
+	<partern pid="A1001"/>
+</person>

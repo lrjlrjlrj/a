@@ -1,0 +1,18 @@
+<!--子元素出现的位置必须一致，默认出现一次，
+如果指定？表示出现1次或0次，
+如果指定* 表示出现0次或n次，
+如果指定+ 表示至少出现1次-->
+<!ELEMENT person (name,age,sex,tall,contact,partern)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT tall (#PCDATA)>
+<!ELEMENT contact (tel,qq)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT qq (#PCDATA)>
+<!ELEMENT partern EMPTY>
+
+
+<!ATTLIST person id CDATA #REQUIRED>
+<!ATTLIST partern pid ID #REQUIRED>
+<!ATTLIST person copyright CDATA "@">
